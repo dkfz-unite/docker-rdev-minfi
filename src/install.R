@@ -1,4 +1,3 @@
-install.packages("BiocManager")
 BiocManager::install("minfi", ask = T)
 BiocManager::install("limma", ask = T)
 BiocManager::install("IlluminaHumanMethylation450kmanifest", ask = T)
