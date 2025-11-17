@@ -1,4 +1,4 @@
-FROM ghcr.io/dkfz-unite/unite-analysis-de:latest AS base
+FROM ghcr.io/dkfz-unite/docker-rdev-biocmanager:latest AS base
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && \
     apt-get clean && \
